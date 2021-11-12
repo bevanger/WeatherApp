@@ -113,14 +113,18 @@ main {
   padding: 5%;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 600px) {
+
+  .search-box {
+    padding-top: 30%;
+  }
 
   .location-box .date {
-    padding-bottom: 2%;
+    padding-bottom: 5%;
   }
 
   .weather-box .weather {
-    padding-top: 2%;
+    padding-top: 5%;
   }
 
 }
